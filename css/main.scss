@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@400;500;600;700&display=swap");
+
+// Global Variables
+$primary-color: #fe5303;
+$heading-font: "Playfair Display", serif;
+
+$space-small: 0.5rem;
+$space-smallmd: 0.75rem;
+$space-md: 1rem;
+$space-large: 1.5rem;
+$space-xl: 2.5rem;
+$space-2xl: 4.625rem;
+
+$box-shadow-color: rgba(0, 0, 0, 0.1);
+
+// Global Styles
+* {
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+
+// Body Styles
+body {
+  margin: 0;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+}
+
+// Section Styles
+section {
+  padding: $space-md 0;
+}
+
+.section-name {
+  text-transform: uppercase;
+  color: #bdbdbd;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+// Heading Styles
+h1,
+h2 {
+  font-size: 2.5rem;
+  font-family: $heading-font;
+  font-weight: 700;
+  margin: 0;
+}
+
+strong {
+  color: $primary-color;
+}
+
+// Navigation Styles
+nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .current_page a {
+    color: $primary-color;
+    font-weight: 700;
+  }
+}
+
+// Header Styles
+
+.header-container {
+  padding: $space-large 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 0 10px $box-shadow-color;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+
+      img {
+        width: 25px;
+      }
+    }
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+
+  .page-name {
+    margin: 0 5px;
+  }
+
+  .menu-right {
+    text-align: right;
+  }
+}
+
+// Footer Styles
+footer {
+  font-family: $heading-font;
+  padding: 40px 0;
+  background-color: #f5f5f5;
+  color: #4b4c4d;
+  text-align: center;
+
+  li {
+    padding: 0 10px;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+
+    a {
+      color: #333;
+      text-decoration: none;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .main-footer {
+    background-color: #fff;
+  }
+
+  .social {
+    text-align: center;
+    padding-bottom: 25px;
+
+    .footer-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .social-icons {
+      a {
+        display: flex;
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        font-size: 1.25rem;
+        color: #555;
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    margin-top: 0.9375rem;
+    text-align: center;
+    font-size: 0.82rem;
+    color: #777;
+    margin-bottom: 0;
+  }
+}

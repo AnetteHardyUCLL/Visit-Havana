@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="images/page_logo.png" type="image/x-icon" />
+
+    <script src="../javascript/menu.js" defer></script>
+    <title>Destinations</title>
+  </head>
+
+  <body>
+    <section class="page_header header-container">
+      <header>
+        <div class="logo-left">
+          <a href="../index.html" class="logo">
+            <img src="../images/page_logo.png" alt="visit havana logo" />
+            <h3 class="page-name">Visit Havana</h3>
+          </a>
+        </div>
+
+        <nav class="menu-right">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="current_page">
+              <a href="../pages/destinations.html">Destinations</a>
+            </li>
+            <li><a href="../index.html#tips">Insider Tips</a></li>
+            <li>
+              <a href="../pages/about_havana.html">About Havana</a>
+            </li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <!-- Heading & Menu -->
+    <main class="destinations-container">
+      <section class="destinations-menu_container">
+        <h1>Must-see destinations.</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul class="destinations-menu" id="destinationsMenu">
+          <li class="current-attractions">
+            <a href="destinations.html">Destinations</a>
+          </li>
+          <li><a href="other_pages/eat_drink.html">Eat & Drink</a></li>
+          <li><a href="other_pages/entertainment.html">Entertainment</a></li>
+          <li><a href="other_pages/hotels.html">Hotels</a></li>
+          <li><a href="other_pages/shopping.html">Shopping</a></li>
+        </ul>
+      </section>
+
+      <!-- Destinations Cards -->
+      <section class="destinations-grid">
+        <article class="destination-card">
+          <img
+            src="../images/destinations/morro.jpg"
+            alt="a picture of El Morro Cabaña"
+          />
+          <h3><a href="#">El Morro Cabaña</a></h3>
+          <p>
+            El Morro Cabaña is a historic fortress that offers breathtaking
+            views of Havana Bay. Explore its ancient walls and lighthouse, and
+            immerse yourself in Cuba's rich maritime history.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../images/destinations/old-havana.jpg"
+            alt="a picture of a man playing a trompet in Old Havana"
+          />
+          <h3><a href="#">Habana Vieja</a></h3>
+          <p>
+            Old Havana, with its colorful streets and colonial architecture, is
+            a UNESCO World Heritage Site. Discover the vibrant culture, visit
+            historic landmarks, and savor the local cuisine.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../images/destinations/teatro.jpg"
+            alt="a picture of Alicia Alonsos Theater"
+          />
+          <h3><a href="#">Gran Teatro de La Habana</a></h3>
+          <p>
+            Alicia Alonso's Theater is a cultural gem in Havana, known for
+            world-class ballet and dance performances. Experience the artistry
+            of Cuban dancers in a grand and elegant setting.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../images/destinations/capitolio.jpg"
+            alt="a picture of El Capitolio"
+          />
+          <h3><a href="#">El Capitolio</a></h3>
+          <p>
+            El Capitolio, an iconic landmark in the heart of Havana, is a symbol
+            of the city's grandeur. Take a guided tour to learn about its
+            history and the Cuban government's functions.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../images/destinations/vedado.jpg"
+            alt="a picture of El Vedado"
+          />
+          <h3><a href="#">El Vedado</a></h3>
+          <p>
+            El Vedado is a modern and lively neighborhood in Havana, known for
+            its nightlife, restaurants, and cultural venues. Explore its streets
+            to get a taste of contemporary Cuban life.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../images/destinations/playa.jpg"
+            alt="a picture of Habana del Este beach"
+          />
+          <h3><a href="#">Habana del Este</a></h3>
+          <p>
+            Habana del Este beach is a paradise for beach lovers. Relax on its
+            sandy shores, swim in the turquoise waters, and soak up the sun in
+            this beautiful coastal area.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../images/destinations/malecon.jpg"
+            alt="a picture of El Malecon"
+          />
+          <h3><a href="#">El Malecón</a></h3>
+          <p>
+            El Malecon is a picturesque seawall that stretches along the Havana
+            coastline. Take a leisurely walk, enjoy the sea breeze, and witness
+            the social life of the locals at sunset.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../images/destinations/Plaza%20de%20la%20Catedral.jpg"
+            alt="a picture of Plaza de la Catedral"
+          />
+          <h3><a href="#">Catedral de San Cristobal</a></h3>
+          <p>
+            Plaza de la Catedral is a charming square in Old Havana, home to the
+            stunning Catedral de San Cristobal. Explore the surrounding streets
+            and admire the beauty of this historic area.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../images/destinations/plaza%20vieja.jpg"
+            alt="a picture of La Plaza Vieja"
+          />
+          <h3><a href="#">Plaza Vieja</a></h3>
+          <p>
+            La Plaza Vieja, or Old Square, is a beautifully restored plaza in
+            Havana with colorful buildings and lively cafes. It's a delightful
+            place to explore, relax, and soak in the atmosphere.
+          </p>
+        </article>
+      </section>
+
+      <!-- PAGINATION BUTTONS -->
+      <div class="pagination-buttons">
+        <div class="buttons">
+          <button class="w3-button w3-circle w3-light-grey">&lt;</button>
+          <button class="w3-button w3-circle w3-red">1</button>
+          <button class="w3-button w3-circle w3-light-grey">2</button>
+          <button class="w3-button w3-circle w3-light-grey">3</button>
+          <button class="w3-button w3-circle w3-light-grey">&gt;</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER AREA -->
+
+    <footer>
+      <div class="social">
+        <div class="footer-row social-icons">
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </div>
+
+        <ul class="footer-row">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../sitespec.html">Site Specifications</a></li>
+          <li><a href="pages/contact.html">Contact Us</a></li>
+        </ul>
+
+        <p class="copyright">&copy; Anette Hardy Sosa, 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>

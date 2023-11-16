@@ -1,0 +1,71 @@
+@use "../main.scss" as *;
+
+$primary-text-color: #333;
+
+.hero {
+  background-color: #f8f8f8;
+  color: $primary-text-color;
+  text-align: center;
+  margin-top: 9.3rem;
+
+  &-content {
+    max-width: 900px;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: $primary-text-color;
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.6;
+      color: #555;
+    }
+  }
+}
+
+.about_havana-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: 0 0 10px $box-shadow-color;
+
+  .about-havana-section {
+    margin-bottom: 40px;
+
+    p {
+      line-height: 1.6;
+    }
+
+    h2 {
+      color: $primary-text-color;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header,
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-size: 0.95rem;
+
+    .logo {
+      margin-bottom: 10px;
+    }
+  }
+}

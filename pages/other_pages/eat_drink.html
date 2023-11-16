@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINKS FOR FOOTER ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+
+    <!-- ICON -->
+    <link rel="icon" href="../../images/page_logo.png" type="image/x-icon" />
+
+    <script src="../../javascript/menu.js" defer></script>
+    <title>Destinations</title>
+  </head>
+
+  <body>
+    <section class="page_header header-container">
+      <header>
+        <div class="logo-left">
+          <a href="../../index.html" class="logo">
+            <img src="../../images/page_logo.png" alt="visit havana logo" />
+            <h3 class="page-name">Visit Havana</h3>
+          </a>
+        </div>
+
+        <nav class="menu-right">
+          <ul class="navLinks">
+            <li><a href="../../index.html">Home</a></li>
+            <li class="current_page">
+              <a href="../destinations.html">Destinations</a>
+            </li>
+            <li><a href="../../index.html#tips">Insider Tips</a></li>
+            <li>
+              <a href="../about_havana.html">About Havana</a>
+            </li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <main class="destinations-container">
+      <!-- Heading & Menu -->
+      <section class="destinations-menu_container">
+        <h1>Must-see restaurants.</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul class="destinations-menu" id="destinationsMenu">
+          <li>
+            <a href="../destinations.html">Destinations</a>
+          </li>
+          <li class="current-attractions">
+            <a href="eat_drink.html">Eat & Drink</a>
+          </li>
+          <li><a href="entertainment.html">Entertainment</a></li>
+          <li><a href="hotels.html">Hotels</a></li>
+          <li><a href="shopping.html">Shopping</a></li>
+        </ul>
+      </section>
+
+      <!-- Destinations Cards -->
+      <section class="destinations-grid">
+        <article class="destination-card">
+          <img
+            src="../../images/Eat&Drink/Antojos.jpg"
+            alt="a picture of Antojos restaurant"
+          />
+          <h3><a href="#">Restaurante Antojos</a></h3>
+          <p>
+            Restaurante Antojos is a charming eatery that offers a delightful
+            fusion of Cuban and international cuisine. Enjoy a cozy atmosphere,
+            live music, and an extensive menu that caters to all tastes.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/Eat&Drink/restaurant.jpg"
+            alt="a picture of Restaurante La Guarida"
+          />
+          <h3><a href="#">La Guarida</a></h3>
+          <p>
+            La Guarida is a renowned restaurant located in the heart of Old
+            Havana. It's known for its elegant setting, gourmet cuisine, and the
+            beautiful views from its rooftop terrace.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/Eat&Drink/restaurant3.jpg"
+            alt="a picture of El Cocinero"
+          />
+          <h3><a href="#">El Cocinero</a></h3>
+          <p>
+            El Cocinero is a trendy restaurant set in an old cooking oil
+            factory's chimney. It's a hotspot for contemporary Cuban cuisine and
+            artistic events in Havana's Vedado district.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/Eat&Drink/la%20bodeguita%20del%20medio.jpg"
+            alt="a picture La Bodeguita del Medio"
+          />
+          <h3><a href="#">La Bodeguita del Medio</a></h3>
+          <p>
+            La Bodeguita del Medio is a historic bar and restaurant famous for
+            its mojitos and its connections to renowned figures like Ernest
+            Hemingway. It's a must-visit in Old Havana.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/Eat&Drink/el%20floridita.jpg"
+            alt="a picture of El Floridita"
+          />
+          <h3><a href="#">El Floridita</a></h3>
+          <p>
+            El Floridita, also known as the "Cradle of the Daiquiri," is an
+            iconic bar in Havana. It's a favorite of Hemingway and serves some
+            of the best cocktails in the city.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/Eat&Drink/gelato.jpg"
+            alt="a picture of La casa del Gelato"
+          />
+          <h3><a href="#">La Casa del Gelato</a></h3>
+          <p>
+            La Casa del Gelato is the perfect place to cool down with delicious
+            gelato and other frozen treats. Located in Habana del Este, it's a
+            sweet escape by the beach.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/Eat&Drink/fabrica%20del%20arte.jpg"
+            alt="a picture of Fabrica del Arte"
+          />
+          <h3><a href="#">Fábrica de Arte Cubano</a></h3>
+          <p>
+            Fábrica de Arte Cubano (FAC) is a unique cultural space in Havana.
+            It's a blend of art gallery, music venue, and nightclub, offering a
+            diverse cultural experience in the Vedado neighborhood.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/Eat&Drink/street%20food.jpg"
+            alt="a picture of Paladar Dona Eutimia"
+          />
+          <h3><a href="#">Paladar Doña Eutimia</a></h3>
+          <p>
+            Paladar Doña Eutimia is a charming paladar (private restaurant) near
+            Plaza de la Catedral. It's known for its traditional Cuban cuisine
+            and authentic flavors.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/Eat&Drink/Casa%20mia%20paladar.jpg"
+            alt="a picture of Casa Mía Paladar"
+          />
+          <h3><a href="#">Casa Mía Paladar</a></h3>
+          <p>
+            Casa Mía Paladar is a hidden gem located near La Plaza Vieja. It's a
+            cozy eatery with a focus on Cuban and Mediterranean dishes,
+            providing a unique dining experience.
+          </p>
+        </article>
+      </section>
+
+      <!-- PAGINATION BUTTONS -->
+      <div class="pagination-buttons">
+        <div class="buttons">
+          <button class="w3-button w3-circle w3-light-grey">&lt;</button>
+          <button class="w3-button w3-circle w3-red">1</button>
+          <button class="w3-button w3-circle w3-light-grey">2</button>
+          <button class="w3-button w3-circle w3-light-grey">3</button>
+          <button class="w3-button w3-circle w3-light-grey">&gt;</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="social">
+        <div class="footer-row social-icons">
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </div>
+
+        <ul class="footer-row">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../sitespec.html">Site Specifications</a></li>
+          <li><a href="../contact.html">Contact Us</a></li>
+        </ul>
+
+        <p class="copyright">&copy; Anette Hardy Sosa, 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>

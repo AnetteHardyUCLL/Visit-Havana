@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINKS FOR FOOTER ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+
+    <!-- ICON -->
+    <link rel="icon" href="../../images/page_logo.png" type="image/x-icon" />
+
+    <script src="../../javascript/menu.js" defer></script>
+    <title>Destinations</title>
+  </head>
+
+  <body>
+    <section class="page_header header-container">
+      <header>
+        <div class="logo-left">
+          <a href="../../index.html" class="logo">
+            <img src="../../images/page_logo.png" alt="visit havana logo" />
+            <h3 class="page-name">Visit Havana</h3>
+          </a>
+        </div>
+
+        <nav class="menu-right">
+          <ul class="navLinks">
+            <li><a href="../../index.html">Home</a></li>
+            <li class="current_page">
+              <a href="../destinations.html">Destinations</a>
+            </li>
+            <li><a href="../../index.html#tips">Insider Tips</a></li>
+            <li>
+              <a href="../about_havana.html">About Havana</a>
+            </li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <main class="destinations-container">
+      <!-- Heading & Menu -->
+      <section class="destinations-menu_container">
+        <h1>Must-see shopping stops.</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul class="destinations-menu" id="destinationsMenu">
+          <li>
+            <a href="../destinations.html">Destinations</a>
+          </li>
+          <li>
+            <a href="eat_drink.html">Eat & Drink</a>
+          </li>
+          <li>
+            <a href="entertainment.html">Entertainment</a>
+          </li>
+          <li>
+            <a href="hotels.html">Hotels</a>
+          </li>
+          <li class="current-attractions">
+            <a href="shopping.html">Shopping</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Destinations Cards -->
+      <section class="destinations-grid">
+        <article class="destination-card">
+          <img
+            src="../../images/shopping/cafe.jpg"
+            alt="a picture of La Casa del Café"
+          />
+          <h3><a href="#">La Casa del Café</a></h3>
+          <p>
+            La Casa del Café is a charming coffee haven in the heart of Havana,
+            where you can savor a diverse selection of coffee blends and
+            products. Nestled in Vedado, it offers a warm and inviting
+            atmosphere for coffee enthusiasts.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/shopping/sanjose.jpg"
+            alt="a picture of Almacenes San Jose"
+          />
+          <h3><a href="#">Almacenes San José</a></h3>
+          <p>
+            Almacenes San José, a captivating shopping destination, beckons you
+            to delve into a diverse array of artisanal and Cuban-made crafts.
+            Situated in picturesque Havana, this marketplace offers a splendid
+            opportunity to immerse yourself in local craftsmanship, ensuring a
+            rewarding shopping experience.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/shopping/chocolate.jpg"
+            alt="a picture of La Casa del Chocolate"
+          />
+          <h3><a href="#">La Casa del Chocolate</a></h3>
+          <p>
+            La Casa del Chocolate is a true paradise for chocolate lovers.
+            Located in the heart of Havana, it is renowned for its mouthwatering
+            Cuban chocolate products, providing an irresistible treat for your
+            taste buds.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/shopping/clandestina.jpg"
+            alt="a picture Clandestina"
+          />
+          <h3><a href="#">Clandestina</a></h3>
+          <p>
+            Clandestina is a unique and trendy shopping destination that caters
+            to fashion-forward individuals seeking distinctive Cuban products.
+            Situated in the historic streets of Old Havana, it showcases
+            contemporary Cuban design and style, ensuring a one-of-a-kind
+            shopping experience.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/shopping/habano.jpg"
+            alt="a picture of La Casa del Habano"
+          />
+          <h3><a href="#">La Casa del Habano</a></h3>
+          <p>
+            La Casa del Habano is a sanctuary for connoisseurs of fine cigars.
+            This distinguished shop offers a premium selection of Cuban cigars,
+            creating an authentic Cuban experience that leaves a lasting
+            impression on aficionados and newcomers alike.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/shopping/libreria.jpg"
+            alt="a picture of Memorias Librería"
+          />
+          <h3><a href="#">Memorias Librería</a></h3>
+          <p>
+            Memorias Librería, a paradise for book enthusiasts, hosts a diverse
+            collection of books in the heart of Havana. From Cuban literature to
+            international classics, it offers a retreat for literary
+            exploration, establishing itself as a must-visit destination for
+            book lovers.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img src="../../images/shopping/linen.jpg" alt="a picture of linen" />
+          <h3><a href="#">Linen clothing, street vendors</a></h3>
+          <p>
+            Immerse yourself in the vibrant tapestry of Cuban culture as you
+            explore an enticing array of locally crafted linen clothing and
+            accessories. Havana's street vendors offer a diverse selection of
+            handmade items, allowing you to discover unique pieces and embrace
+            the local artisanal spirit.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/shopping/oldhavana.jpg"
+            alt="a picture of old havana"
+          />
+          <h3><a href="#">Old Havana, street vendors</a></h3>
+          <p>
+            Old Havana's bustling streets come alive with vibrant street
+            vendors, where you can delve into the kaleidoscope of colors,
+            sounds, and flavors. Explore the lively markets to uncover a wide
+            variety of Cuban crafts, souvenirs, and local treasures.
+          </p>
+        </article>
+
+        <article class="destination-card">
+          <img
+            src="../../images/shopping/perfume.jpg"
+            alt="a picture of Habana 1791"
+          />
+          <h3><a href="#">Habana 1791</a></h3>
+          <p>
+            Habana 1791 entices you with its exquisite collection of Cuban
+            fragrances and perfumes, encapsulating the very essence of Havana's
+            history. This inviting spot welcomes you to immerse yourself in the
+            scents that reflect the city's rich heritage and charm.
+          </p>
+        </article>
+      </section>
+
+      <!-- PAGINATION BUTTONS -->
+      <div class="pagination-buttons">
+        <div class="buttons">
+          <button class="w3-button w3-circle w3-light-grey">&lt;</button>
+          <button class="w3-button w3-circle w3-red">1</button>
+          <button class="w3-button w3-circle w3-light-grey">&gt;</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="social">
+        <div class="footer-row social-icons">
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </div>
+
+        <ul class="footer-row">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../sitespec.html">Site Specifications</a></li>
+          <li><a href="../contact.html">Contact Us</a></li>
+        </ul>
+
+        <p class="copyright">&copy; Anette Hardy Sosa, 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
